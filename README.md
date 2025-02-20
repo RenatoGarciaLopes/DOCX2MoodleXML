@@ -1,22 +1,33 @@
-# DOCX2MoodleXML-
-Ferramenta para converter arquivos DOCX em XML compatível com o Moodle, preservando formatação e alternativas corretas
 📄 DOCX to Moodle XML Converter
 
-Este repositório contém uma ferramenta para converter arquivos .docx contendo questões de múltipla escolha em arquivos .xml compatíveis com o formato de importação do Moodle. A conversão preserva a formatação, espaçamentos e identifica corretamente a alternativa correta (destacada em negrito no documento original).
+Descrição: Ferramenta para converter arquivos DOCX com questões de múltipla escolha em XML compatível com o Moodle, preservando formatação e identificando a alternativa correta.
 🚀 Funcionalidades
 
-✅ Processa automaticamente todos os arquivos .docx de uma pasta específica
+✅ Processa automaticamente todos os arquivos .docx de uma pasta específica (bqs/)
 ✅ Detecta perguntas e alternativas de forma estruturada
-✅ Identifica a alternativa correta baseada na formatação do Word
-✅ Gera arquivos .xml compatíveis com o Moodle
-✅ Organiza os arquivos convertidos em uma pasta separada
+✅ Identifica a alternativa correta com base na formatação (negrito)
+✅ Gera arquivos .xml compatíveis com a importação no Moodle
+✅ Organiza os arquivos convertidos na pasta bqs_conv/
+📦 Instalação
+
+    Clone o repositório:
+
+git clone https://github.com/seu-usuario/seu-repositorio.git
+cd seu-repositorio
+
+Instale as dependências:
+
+    pip install python-docx
+
 📂 Como Usar
 
     Coloque os arquivos .docx na pasta bqs/
-    Execute o script
-    Os arquivos convertidos serão salvos na pasta bqs_conv/
+    Execute o script:
 
-📌 Requisitos
+    python converter.py
 
-    Python 3.10
-    Biblioteca python-docx para manipulação dos arquivos Word
+    Os arquivos convertidos estarão na pasta bqs_conv/
+
+📜 Licença
+
+Este projeto está licenciado sob a MIT License – veja o arquivo LICENSE para mais detalhes.
