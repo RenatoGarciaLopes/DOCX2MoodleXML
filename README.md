@@ -18,5 +18,5 @@ Este repositório contém uma ferramenta para converter arquivos .docx contendo 
 
 📌 Requisitos
 
-    Python 3.x
+    Python 3.10
     Biblioteca python-docx para manipulação dos arquivos Word
