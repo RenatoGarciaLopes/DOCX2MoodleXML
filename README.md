@@ -13,7 +13,7 @@
 1. Clone o repositório:  
    ```bash
    git clone https://github.com/RenatoGarciaLopes/DOCX2MoodleXML.git
-   cd seu-repositorio
+   cd DOCX2MoodleXML
    ```  
 2. Instale as dependências:  
    ```bash
@@ -24,7 +24,7 @@
 1. Coloque os arquivos **.docx** na pasta `BQS/`  
 2. Execute o script:  
    ```bash
-   python converter.py
+   python program.py
    ```  
 3. Os arquivos convertidos estarão na pasta `BQS_CONV/`  
 
